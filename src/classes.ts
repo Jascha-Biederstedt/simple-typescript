@@ -1,5 +1,5 @@
 class Robot {
-  _color: string;
+  _color: string = '';
 
   static availableColors = ['green', 'yellow'];
   static colorAvailable(color: string) {
